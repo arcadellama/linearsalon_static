@@ -87,7 +87,7 @@ function handleOptions(request) {
   }
 }
 
-async function handle(request) {
+export async function handle(request) {
   try {
     const form = await request.json();
 
